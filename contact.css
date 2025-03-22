@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #fdfbee;
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 90px;
+  background-color: #ebe8db;
+}
+.left h1 a {
+  text-decoration: none;
+  color: black;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+}
+nav ul li {
+  list-style: none;
+  padding: 0 32px;
+  border: 1px solid black;
+  border-top: none;
+  border-bottom: none;
+}
+#About {
+  border-left: none;
+}
+#Contact {
+  border-right: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+nav ul li a:hover {
+  color: rgb(146, 100, 2);
+}
+h2 {
+  margin: 60px 0 20px 0;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around ;
+  align-items: center;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 60px;
+}
+.name{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.name input{
+  width: 180px;
+}
+.message input{
+  height: 60px;
+}
+form input{
+  width: 400px;
+  height: 30px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.phone p {
+  margin: 4px 0;
+}
+.email p {
+  margin: 4px 0;
+}
+.social img{
+  height: 30px;
+  width: 30px;
+  margin: 4px 0;
+  padding-right: 24px;
+}

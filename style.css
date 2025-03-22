@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #fdfbee;
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 90px;
+  background-color: #ebe8db;
+}
+.left h1 a {
+  text-decoration: none;
+  color: black;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+}
+nav ul li {
+  list-style: none;
+  padding: 0 32px;
+  border: 1px solid black;
+  border-top: none;
+  border-bottom: none;
+}
+#About {
+  border-left: none;
+}
+#Contact {
+  border-right: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+nav ul li a:hover {
+  color: rgb(146, 100, 2);
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 88px 0px;
+}
+.container img {
+  height: 480px;
+  width: 480px;
+  border-radius: 50%;
+}
+.linkCircles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+.circles {
+  display: flex;
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  border: 1px black solid;
+}
+#red {
+  background-color: #fe4f2d;
+}
+#yellow {
+  background-color: #ffa725;
+}
+#blue {
+  background-color: #57b4ba;
+}
+.linkCircles a {
+  text-decoration: none;
+  color: black;
+}
+.circles:hover {
+  color: bisque;
+}
+.texts {
+  padding-bottom: 40px;
+}
+.texts h2 {
+  padding: 8px 0;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px 30px;
+  border-top: 1px rgba(28, 28, 28, 0.377) solid;
+  padding: 30px 0;
+}
+footer div a {
+  padding-right: 8px;
+}
+.foot {
+  margin: 8px 0;
+}
+.linkedin img{
+  height: 30px;
+  width: 30px;
+}
+.x img{
+  height: 30px;
+  width: 30px;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Contact</title>
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">
+          <h1><a href="index.html">Himansu Kumar</a></h1>
+          Web Developer
+        </div>
+        <div class="right">
+          <ul>
+            <li id="About"><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li id="Contact"><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container">
+      
+      <div class="info">
+        
+        <h2>Contact Me</h2>
+        
+        <div class="phone">
+          <h3>Phone</h3>
+          <p>+91 7077128567</p>
+        </div>
+
+        <div class="email">
+          <h3>E-mail</h3>
+          <p>himansukumar7240@gmail.com</p>
+        </div>
+
+        <div class="social">
+          <h3>Social media handles</h3>
+          <a href="https://www.linkedin.com/in/himansu-kumar/" id="linkedin" target="_blank"><img src="./images/linkedln.svg" alt="LikedIn"/></a>
+          <a href="https://x.com/himansu_kumar_" id="x" target="_blank"><img src="./images/twitter.svg" alt="X"/></a>
+          <a href="https://www.instagram.com/_himansu_._/" id="instagram" target="_blank"><img src="./images/instagram.svg" alt="instagram"/></a>
+        </div>
+      </div>
+
+      <div class="forms">
+        <form action="backend.php">
+          <div class="name">
+            <div>
+              <label for="firstname"><h3>First Name</h3></label>
+              <input type="text" name="firstname" id="firstname" />
+            </div>
+            <div>
+              <label for="lastname"><h3>Last Name</h3></label>
+              <input type="text" name="lastname" id="lastname" />
+            </div>
+          </div>
+
+          <div class="emailid">
+            <label for="emailid"><h3>E-mail</h3></label>
+            <input type="email" name="emailid" id="emailid" />
+          </div>
+
+          <div class="subject">
+            <label for="subject"><h3>Subject</h3></label>
+            <input type="text" name="subject" id="subject" />
+          </div>
+
+          <div class="message">
+            <label for="message"><h3>Message</h3></label>
+            <input type="text" name="message" id="message">
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
