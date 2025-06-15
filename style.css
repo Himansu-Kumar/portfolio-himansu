@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Poppins", serif;
 }
 body {
   background-color: #fdfbee;
@@ -8,14 +9,18 @@ body {
 }
 nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   height: 90px;
-  background-color: #ebe8db;
+  background-color: #141010;
+  padding: 0 152px;
 }
 .left h1 a {
   text-decoration: none;
-  color: black;
+  color: #EDEDED;
+}
+nav .left{
+  color: #EDEDED;
 }
 nav ul {
   display: flex;
@@ -24,7 +29,7 @@ nav ul {
 nav ul li {
   list-style: none;
   padding: 0 32px;
-  border: 1px solid black;
+  border: 1px solid gray;
   border-top: none;
   border-bottom: none;
 }
@@ -33,13 +38,14 @@ nav ul li {
 }
 #Contact {
   border-right: none;
+  padding-right: 0;
 }
 nav ul li a {
   text-decoration: none;
-  color: black;
+  color: #E2DFD0;
 }
 nav ul li a:hover {
-  color: rgb(146, 100, 2);
+  color: rgb(105, 105, 88);
 }
 .container {
   display: flex;
@@ -51,6 +57,10 @@ nav ul li a:hover {
   height: 480px;
   width: 480px;
   border-radius: 50%;
+  transition: transform 250ms;
+}
+.img :hover {
+  transform: scale(1.05);
 }
 .linkCircles {
   display: flex;
@@ -94,9 +104,9 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 10px 30px;
-  border-top: 1px rgba(28, 28, 28, 0.377) solid;
-  padding: 30px 0;
+  margin: 10px 32px;
+  border-top: 1px black solid;
+  padding: 32px 0;
 }
 footer div a {
   padding-right: 8px;
@@ -104,11 +114,123 @@ footer div a {
 .foot {
   margin: 8px 0;
 }
-.linkedin img{
-  height: 30px;
-  width: 30px;
+.foot img{
+  height: 32px;
+  width: 32px;
 }
-.x img{
-  height: 30px;
-  width: 30px;
+
+@media(max-width:1024px) and (min-width:900px){
+  body{
+    font-size: 16px;
+  }
+  nav{
+    padding: 0 88px;
+  }
+  nav ul li{
+    padding: 0 24px;
+  }
+  .container{
+    padding: 72px 0;
+  }
+  .container img{
+    height: 360px;
+    width: 360px;
+  }
+  .contents{
+    width: 440px;
+  }
+  .texts{
+    padding-bottom: 32px;
+  }
+  .linkCircles{
+    padding-top: 20px;
+  }
+  .circles{
+    height: 120px;
+    width: 120px;
+  }
+  footer{
+    padding: 24px 0;
+  }
+  .foot img{
+    height: 24px;
+    width: 24px;
+  }
+}
+@media(max-width:899px) and (min-width:768px){
+  body{
+    font-size: 14px;
+  }
+  nav{
+    padding: 0 72px;
+  }
+  nav ul li{
+    padding: 0 16px;
+  }
+  .container{
+    padding: 72px 0;
+  }
+  .container img{
+    height: 320px;
+    width: 320px;
+  }
+  .contents{
+    width: 400px;
+  }
+  .texts{
+    padding-bottom: 32px;
+  }
+  .linkCircles{
+    padding-top: 16px;
+  }
+  .circles{
+    height: 100px;
+    width: 100px;
+  }
+  footer{
+    padding: 24px 0;
+  }
+  .foot img{
+    height: 24px;
+    width: 24px;
+  }
+}
+@media(max-width:768px) and (min-width:650px){
+  body{
+    font-size: 12px;
+  }
+  nav{
+    padding: 0 56px;
+  }
+  nav ul li{
+    padding: 0 16px;
+  }
+  .container{
+    padding: 56px 0;
+  }
+  .container img{
+    height: 252px;
+    width: 252px;
+  }
+  .contents{
+    width: 344px;
+  }
+  .texts{
+    padding-bottom: 24px;
+  }
+  .linkCircles{
+    padding-top: 16px;
+  }
+  .circles{
+    height: 88px;
+    width: 88px;
+  }
+  footer{
+    padding: 16px 0;
+    margin: 8px 32px;
+  }
+  .foot img{
+    height: 20px;
+    width: 20px;
+  }
 }
